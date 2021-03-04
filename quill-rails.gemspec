@@ -8,13 +8,13 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/the-robear/quill-rails"
   s.licenses    = ["BSD 3 Clause", "Copyright (c) 2013, salesforce.com"]
 
-  s.summary     = "Quill.js for Rails 3.1/4.0"
+  s.summary     = "Quill.js for Rails 3.1/4.0/5.0"
   s.description = "This gem provides the Quill.js Rich Text Editor assets and view helper for your Rails 3.1/4.0 application."
   s.files       = Dir["{app,lib}/**/*"] + ["LICENSE", "Gemfile", "README.md"]
   s.version     = Quill::Rails::VERSION
 
-  s.add_dependency "railties", ">= 3.1.0", "< 5.0"
-  s.add_development_dependency "rails", ">= 3.1"
+  s.add_dependency "railties", ">= 3.1.0", "< 5.2"
+  s.add_development_dependency "rails", ">= 5.2"
   s.add_development_dependency "jquery-rails"
   s.add_development_dependency 'coffee-rails'
   s.add_development_dependency "sqlite3"
